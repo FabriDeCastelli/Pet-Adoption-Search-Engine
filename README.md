@@ -1,4 +1,4 @@
-# Pet-Adoption-Search-Engine
+# Pet Adoption
 Information Retrieval Project, USI Fall Semester
 
 ## Project Instructions:
@@ -12,3 +12,14 @@ The system should also have two additional features. Additional features are des
 the document on iCorsi and categorized into two groups: complex and simple features. You
 can choose which features you want to implement yourself, provided there is at least one
 feature from each of the groups (two in total). 
+
+## How to run the application
+It is required to have installed flask (in a python environment is also fine)
+
+* Start solr server;
+* Open the terminal on the directory where app.py is located;
+* Activate the environment;
+* Type **set FLASK_APP=app**;
+* Type **set FLASK_ENV=development**, to enable debugging (not mandatory);
+* Run the program by typing **flask run**;
+* Open suggested url and use the app.
